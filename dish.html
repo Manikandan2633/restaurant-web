@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dishes at Meat& Eat</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+    <div class="border">
+        <i class="name">Welcome to Meat & Eat</i>
+        <i class="sub-name">The Family Restaurant</i>
+    </div>
+
+<label class="cousine">Choose a Cousine</label>
+<select id="cousine" onchange="showfood(this.value)">
+    <option value="zero">select</option>
+    <option value="one">Indian</option>
+    <option value="two">Italian</option> 
+    <option value="three">Mexican</option> 
+    <option value="four">Juices & Mocktails</option> 
+</select>
+
+
+<div class="india" id="ind">
+    <section class="items">
+        <div class="item">
+            <div class="box">
+            <img src="/images/dish-1.png" alt="burger" width="100px" height="100px">
+            <h1>Burger INR-149/-</h1>
+            <button href="#" class="btn">order now</button>
+        </div>
+        </div>
+        <div class="item">
+            <div class="box">
+            <img src="/images/dish-2.png" alt="cutlet" width="100px" height="100px">
+            <h1>Cutlet INR-99/-</h1>
+            <button href="#" class="btn">order now</button>
+        </div>
+        </div>
+        <div class="item">
+            <div class="box">
+            <img src="/images/dish-3.png" alt="full chicken" width="100px" height="100px">
+            <h1>Grill chicken INR-299/-</h1>
+            <button href="#" class="btn">order now</button>
+        </div>
+        </div>
+        <div class="item">
+            <div class="box">
+            <img src="/images/dish-4.png" alt="pizza" width="100px" height="100px">
+            <h1>Pizza INR-149/-</h1>
+            <button href="#" class="btn">order now</button>
+        </div>
+        </div>
+        <div class="item">
+            <div class="box">
+            <img src="/images/dish-5.png" alt="Brownie" width="100px" height="100px">
+            <h1>Brownie INR-99/-</h1>
+            <button href="#" class="btn">order now</button>
+        </div>
+        </div>
+        <div class="item">
+            <div class="box">
+            <img src="/images/dish-6.png" alt="kfc chicken" width="100px" height="100px">
+            <h1>KFC chicken INR-299/-</h1>
+            <button href="#" class="btn">order now</button>
+        </div>
+        </div>
+        </section>
+</div>
+<div class="italian" id="ita">
+    <section class="items">
+        <div class="item">
+            <div class="box">
+            <img src="/images/itali1.jpeg" alt="speghetti" width="100px" height="100px">
+            <h1>Speghatti INR-149/-</h1>
+            <button href="#" class="btn">order now</button>
+        </div>
+        </div>
+        <div class="item">
+            <div class="box">
+            <img src="/images/itali2.jpeg" alt="pasta" width="100px" height="100px">
+            <h1>Penna Pasta INR-99/-</h1>
+            <button href="#" class="btn">order now</button>
+        </div>
+        </div>
+        <div class="item">
+            <div class="box">
+            <img src="/images/itali3.jpeg" alt="prawns" width="100px" height="100px">
+            <h1>Prawns INR-299/-</h1>
+            <button href="#" class="btn">order now</button>
+        </div>
+        </div>
+        <div class="item">
+            <div class="box">
+            <img src="/images/itali4.jpeg" alt="salad" width="100px" height="100px">
+            <h1>Caesar Salad INR-149/-</h1>
+            <button href="#" class="btn">order now</button>
+        </div>
+        </div>
+        <div class="item">
+            <div class="box">
+            <img src="/images/itali5.jpeg" alt="lasagna" width="100px" height="100px">
+            <h1>Lasagna INR-99/-</h1>
+            <button href="#" class="btn">order now</button>
+        </div>
+        </div>
+        <div class="item">
+            <div class="box">
+            <img src="/images/itali6.jpeg" alt="Pizza" width="100px" height="100px">
+            <h1>Pepperoni Pizza INR-299/-</h1>
+            <button href="#" class="btn">order now</button>
+        </div>
+        </div>
+        </section>
+</div>
+
+
+<div class="mexican" id="mexi" >
+    <section class="items">
+        <div class="item">
+            <div class="box">
+            <img src="/images/pozole.jpeg" alt="pozole" width="100px" height="100px">
+            <h1>Pozole INR-149/-</h1>
+            <button href="#" class="btn">order now</button>
+        </div>
+        </div>
+        <div class="item">
+            <div class="box">
+            <img src="/images/images (1).jpeg" alt="shawarma" width="100px" height="100px">
+            <h1>Shawarma INR-99/-</h1>
+            <button href="#" class="btn">order now</button>
+        </div>
+        </div>
+        <div class="item">
+            <div class="box">
+            <img src="/images/tocos.jpeg" alt="tocos width="100px" height="100px">
+            <h1>Tocos INR-299/-</h1>
+            <button href="#" class="btn">order now</button>
+        </div>
+        </div>
+        </section>
+        </div>
+
+
+        <div class="juice" id="juice" >
+            <section class="items">
+                <div class="item">
+                    <div class="box">
+                    <img src="/images/falooda.jpeg" alt="Falooda" width="100px" height="100px">
+                    <h1>Falooda INR-79/-</h1>
+                    <button href="#" class="btn">order now</button>
+                </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                    <img src="/images/jigarthanda.jpeg" alt="Jigarthanda" width="100px" height="100px">
+                    <h1>Jigarthanda INR-100/-</h1>
+                    <button href="#" class="btn">order now</button>
+                </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                    <img src="/images/cocktail.jpeg" alt="Cocktail" width="100px" height="100px">
+                    <h1>Cocktail INR-199Gr/-</h1>
+                    <button href="#" class="btn">order now</button>
+                </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                    <img src="/images/choco.jpeg" alt="Chocolate" width="100px" height="100px">
+                    <h1>Chocolate INR-99/-</h1>
+                    <button href="#" class="btn">order now</button>
+                </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                    <img src="/images/icecream.jpeg" alt="Icecream" width="100px" height="100px">
+                    <h1>Icecream INR-49/-</h1>
+                    <button href="#" class="btn">order now</button>
+                </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                    <img src="/images/cocktail2.jpg" alt="cocktail" width="100px" height="100px">
+                    <h1>Cacktail INR-229/-</h1>
+                    <button href="#" class="btn">order now</button>
+                </div>
+                </div>
+                </section>
+                </div>
+
+
+
+
+
+
+
+
+
+
+<br><br>
+
+
+
+
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#">chennai</a>
+            <a href="#">mumbai</a>
+            <a href="#">delhi</a>
+            <a href="#">bangalore</a>
+            <a href="#">kerala</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#review">reivew</a>
+            <a href="#order">order</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">+91 9876543210</a>
+            <a href="#">0435-246578</a>
+            <a href="#">meat&eat@gmail.com</a>
+            <a href="#">manikandan@gmail.com</a>
+            <a href="#">chennai, india - 600029</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+            <a href="#">twitter</a>
+        </div>
+
+    </div>
+
+    <div class="credit"> copyright @ 2022-2023 by <span>MEAT & EAT</span> </div>
+
+</section>
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class="fa fa-utensils"></i>meat & eat </a>
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a> 
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+            <a href="http://127.0.0.1:5500/table_book.html">reservation</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+        </div>
+       
+       <button class="login-btn" id="log">Login</button>
+   
+            <div class="login">
+            <i class="fas fa-times" id="close"></i>
+                <input type="text" class="holder" placeholder="email address" required >
+                <input type="password" class="holder" placeholder="password" required >
+                <input type="checkbox"><label class="pw-check">remember me</label>
+                <input type="submit" value="login">
+                <div class="line"></div>
+                <label class="account">not have a account?</label><a href="http://127.0.0.1:5500/login.html" target="_blank" ><button class="signup-btn">signup now</button></a>
+        </div>
+    </header>
+<div id="blur">
+<section class="slide-color">
+        <div class="container">
+            <input type="radio" name="images" id="i1" checked>
+            <input type="radio" name="images" id="i2">
+            <input type="radio" name="images" id="i3">
+            <div class="slide_img" id="one">
+                <img src="/images/slide1.jpg" alt="">
+                <label for="i3" class="pre"></label>
+                <label for="i2" class="nxt"></label>
+            </div>
+            <div class="slide_img" id="two">
+                <img src="/images/slide2.webp" alt="">
+                <label for="i1" class="pre"></label>
+                <label for="i3" class="nxt"></label>
+            </div>
+            <div class="slide_img" id="three">
+                <img src="/images/slide3.jpg" alt="">
+                <label for="i2" class="pre"></label>
+                <label for="i1" class="nxt"></label>
+            </div>
+            <div class="nav">
+                <label class="dots" id="dot1" for="i1"></label>
+                <label class="dots" id="dot2" for="i2"></label>
+                <label class="dots" id="dot3" for="i3"></label>
+            </div>
+        </div>
+ </section>
+ 
+
+<h1 class="heading" id="dishes"> Our Dishes</h1>
+<section class="items">
+<div class="item">
+    <div class="box">
+    <img src="/images/dish-1.png" alt="burger" width="100px" height="100px">
+    <h1>Burger INR-149/-</h1>
+    <button href="#" class="btn">order now</button>
+</div>
+</div>
+<div class="item">
+    <div class="box">
+    <img src="/images/dish-2.png" alt="cutlet" width="100px" height="100px">
+    <h1>Cutlet INR-99/-</h1>
+    <button href="#" class="btn">order now</button>
+</div>
+</div>
+<div class="item">
+    <div class="box">
+   <a href="http://127.0.0.1:5500/dish.html" ><img src="/images/nxtarrow.png"  width="100px" height="138px"></a>
+   <button href="http://127.0.0.1:5500/dish.html" class="btn">view more</button>
+</div>
+</div>
+
+</section>
+<br>
+<h1 class="heading" id="about"> About Us</h1>
+<section class="about" id="about">
+
+
+
+<div class="row">
+
+    <div class="image">
+        <img src="images/about.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>best food in the country</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, sequi corrupti corporis quaerat voluptatem ipsam neque labore modi autem, saepe numquam quod reprehenderit rem? Tempora aut soluta odio corporis nihil!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, nemo. Sit porro illo eos cumque deleniti iste alias, eum natus.</p>
+        <div class="icons-container">
+            <div class="icons">
+                <span>free delivery</span>
+            </div>
+            <div class="icons">
+                
+                <span>easy payments</span>
+            </div>
+            <div class="icons">
+                
+                <span>24/7 service</span>
+            </div>
+        </div>
+        <a href="http://127.0.0.1:5500/about.html" class="btn">learn more</a>
+    </div>
+
+</div>
+
+</section>
+
+<br>
+<h1 class="heading" id="review">Reviews<br>Our Customers loves Us</h1>
+<br>
+<section class="cus_review">
+<div class="wrapper">
+    <div class="container">
+        <div class="profile">
+            <div class="imgbox">
+                <img src="/images/pic-1.png" alt="">
+            </div>
+            <h2>john</h2>
+            <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui mollitia est et temporibus? Cupiditate dolor vitae veritatis, nulla consequatur, aliquid itaque temporibus, id non perferendis nisi doloribus et sunt! Perspiciatis?</p>
+    </div>
+    <div class="container">
+        <div class="profile">
+            <div class="imgbox">
+                <img src="/images/pic-2.png" alt="">
+            </div>
+            <h2>liv</h2>
+            <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui mollitia est et temporibus? Cupiditate dolor vitae veritatis, nulla consequatur, aliquid itaque temporibus, id non perferendis nisi doloribus et sunt! Perspiciatis?</p>
+    </div>
+    <div class="container">
+        <div class="profile">
+            <div class="imgbox">
+                <img src="/images/pic-4.png" alt="">
+            </div>
+            <h2>deepthi</h2>
+            <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui mollitia est et temporibus? Cupiditate dolor vitae veritatis, nulla consequatur, aliquid itaque temporibus, id non perferendis nisi doloribus et sunt! Perspiciatis?</p>
+    </div>
+</div>
+</section>
+<br>
+<br>
+<h1 class="heading" id="order">Order Now<br>Free Delivery</h1>
+<br>
+<section class="order" id="order">
+ 
+
+    <form action="#">
+        <div class="inputBox">
+            <div class="input">
+                <span>your name</span>
+                <input type="text" placeholder="enter your name">
+            </div>
+            <div class="input">
+                <span>your mobile number</span>
+                <input type="text" placeholder="enter your number">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>your order</span>
+                <input type="text" placeholder="enter food name">
+            </div>
+            <div class="input">
+                <span>additional food</span>
+                <input type="text" placeholder="extra with food">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>how much</span>
+                <input type="number" placeholder="how many orders">
+            </div>
+            <div class="input">
+                <span>date and time</span>
+                <input type="datetime-local">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>your address</span>
+                <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>your message</span>
+                <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <button class="btn">order now</button>
+    </form>
+
+</section>
+<br>
+<br>
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#">chennai</a>
+            <a href="#">mumbai</a>
+            <a href="#">delhi</a>
+            <a href="#">bangalore</a>
+            <a href="#">kerala</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#review">reivew</a>
+            <a href="#order">order</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">+91 9876543210</a>
+            <a href="#">0435-246578</a>
+            <a href="#">meat&eat@gmail.com</a>
+            <a href="#">manikandan@gmail.com</a>
+            <a href="#">chennai, india - 600029</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+            <a href="#">twitter</a>
+        </div>
+
+    </div>
+
+    <div class="credit"> copyright @ 2022-2023 by <span>MEAT & EAT</span> </div>
+
+</section>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
