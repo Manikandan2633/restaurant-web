@@ -21,7 +21,7 @@
 }
 
 html{
-    font-size:30.5%;
+    font-size:65%;
     overflow-x:hidden;
     scroll-padding-top: 5.5rem;
     scroll-behavior: smooth;
@@ -87,17 +87,17 @@ header .icons #menu-bars{
     display:none;
 }
 .login-btn{
-    font-size: 10px;
+    font-size: 20px;
     background: #fff;
     cursor: pointer;
     padding: 2px;
 }
 .login{
-    width: 120px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     background: rgba(0, 0, 0, 0.5);
     padding: 5px;
-    top:50px;
+    top:100px;
     left: 40%;
     position: absolute;
     border-radius: 10px;
@@ -109,8 +109,8 @@ header .icons #menu-bars{
     right: 10px;
     cursor: pointer;
     font-size: 8px;
-    height: 10px;
-    width: 10px;
+    height: 15px;
+    width: 15px;
     background:black;
     border-radius: 5px;
     text-align: center;
@@ -120,7 +120,7 @@ input[type = 'checkbox']{
     margin-top: 6px;
 }
 .pw-check{
-    font-size: 10px;
+    font-size: 25px;
     margin-left: 2px;
     padding:5px;
     color:bisque;
@@ -131,14 +131,14 @@ input[type = 'checkbox']{
     background: #fff;
     margin-top: 12px;
     border: 1px solid aqua;
-    font-size: 10px;
+    font-size: 25px;
     text-transform: lowercase;
 }
 .holder:hover,.signup-btn:hover, input[type='submit']:hover{
     border:1px solid black;
 }
 input[type='submit']{
-    font-size: 10px;
+    font-size: 25px;
     width: 100%;
     background: rgb(245, 163, 148);
     padding: 1px;
@@ -153,23 +153,23 @@ input[type='submit']{
     margin-top: 5px;
     background: #fee36c;
     border-radius: 3px;
-    font-size: 10px;
+    font-size: 25px;
     cursor: pointer;
 }
 /*sign in*/
 .signup{
     width: 100%;
-    height: 170px;
+    height: 350px;
     background: rgb(255, 245, 253);
 }
 .sign-container{
     position: absolute;
     left: 50%;
-    top: 57%;
+    top: 35%;
     margin-top: 20px;
     transform: translate(-50%,-50%);
-    width: 150px;
-    height: 160px;
+    width: 300px;
+    height: 300px;
     background: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 3px;
@@ -177,7 +177,7 @@ input[type='submit']{
 .sign-field{
     width: 100%;
     margin: 3px;
-    font-size: 10px;
+    font-size: 30px;
     border: 1px solid rgb(217, 244, 255);
     border-radius: 2px;
 }
@@ -186,7 +186,7 @@ input[type='submit']{
 }
 .register{
     text-align: center;
-    font-size: 8px;
+    font-size: 20px;
     font-style: bold;
     margin-top: 1px;
 }
@@ -196,7 +196,7 @@ input[type='submit']{
     margin: 2px 0 0 3px;
     background: rgb(245, 163, 148);
     border-radius: 3px;
-    font-size: 10px;
+    font-size: 20px;
     cursor: pointer;
 }
 .line{
@@ -209,13 +209,13 @@ input[type='submit']{
     color: #070c0d;
 }
 .account{
-    font-size: 10px;
+    font-size: 20px;
     display: inline-flex;
-    color: #7aacf7;
+    color: #202020;
     margin-top: 3px;
 }
 .acc{
-    font-size: 10px;
+    font-size: 20px;
     width: 100%;
     margin-top: 5px;
     padding:2px;
@@ -304,7 +304,7 @@ input[type='submit']{
 .btn{
     margin-top: 1rem;
     display: inline-block;
-    font-size: 10px;
+    font-size: 20px;
     color:#fff;
     background: var(--black);
     border-radius: .5rem;
@@ -329,8 +329,8 @@ input[type='submit']{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding: 15px 15px;
-    grid-column-gap: 20px;
-    grid-row-gap:20px; 
+    grid-column-gap: 30px;
+    grid-row-gap:30px; 
     background-color:rgb(255, 245, 253);
     width: 100%;
     height: auto;
@@ -350,7 +350,7 @@ input[type='submit']{
 }
 
 .item h1{
-    padding: 15px;
+    padding: 20px;
     text-align: center;
 }
 .item .btn{
@@ -358,14 +358,14 @@ input[type='submit']{
     margin: 0 auto;
 }
 .cousine{
-    font-size: 15px;
+    font-size: 30px;
     margin: 0 15px 0 3px;
 }
 #cousine{
     width: 65%;
     margin: 5px 0 5px 0;
     background: #fff;
-    font-size: 15px;
+    font-size: 30px;
     cursor: pointer;
 }
 .india , .italian , .mexican , .juice{
@@ -374,7 +374,7 @@ input[type='submit']{
 
 .about{
     background: rgb(255, 245, 253);
-    height: 220px;
+    height: 400px;
 }
 #abt{
     text-align: center;
@@ -392,8 +392,8 @@ input[type='submit']{
 .about .row .image{
     margin-left: 5px;
     margin-top: 15px;
-    height: 250px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
 }
 
 .about .row .image img{ 
@@ -408,12 +408,12 @@ input[type='submit']{
     color:var(--black);
     font-size: 3rem;
     padding:.5rem 0;
-    margin-top: -65px;
+    margin-top: -50px;
 }
 
 .about .row .content p{
     color:var(--light-color);
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding:.5rem 0;
     line-height: 2;
 }
@@ -455,13 +455,13 @@ input[type='submit']{
 }
 .wrapper .container{
     position: relative;
-    width: 130px;
+    width: 300px;
     background: #fff;
     margin: 5px 5px;
     padding:20px;
     border-radius: 3px;
     transition: 0.3s ease;
-    height: 302px;
+    height: 630px;
 }
 .wrapper .container .profile{
     position: relative;
@@ -473,8 +473,8 @@ input[type='submit']{
 }
 .wrapper .container .profile .imgbox{
     position:relative;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     margin:auto;
     border: 5px solid #070c0d;
     border-radius: 50%;
@@ -495,19 +495,19 @@ input[type='submit']{
     color:black;
     letter-spacing: 1px;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 2px;
 }
 .wrapper .container .profile .star{
     text-align: center;
     color: rgb(255, 238, 0);
-    font-size: 10px;
+    font-size: 20px;
     margin-top: 10px;
 }
 .wrapper .container p{
     color:black;
     padding: 0 8px;
-    font-size: 8px;
+    font-size: 25px;
     opacity: 0.8;
 }
 .wrapper .container:hover{
@@ -515,7 +515,7 @@ input[type='submit']{
 }
 .order{
     width: 100%;
-    height:280px;
+    height:auto;
     background-color:rgb(255, 245, 253);;
     padding-top: 5px;
 }
@@ -543,7 +543,7 @@ input[type='submit']{
 .order form .inputBox .input span{
     display:block;
     padding:.5rem 0;
-    font-size: 1.5rem;
+    font-size: 3rem;
     color:var(--light-color);
 }
 
@@ -552,7 +552,7 @@ input[type='submit']{
     background:#eee;
     border-radius: .5rem;
     padding:1rem;
-    font-size: 1.6rem;
+    font-size: 3rem;
     color:var(--black);
     text-transform: none;
     margin-bottom: 1rem;
@@ -581,13 +581,14 @@ input[type='submit']{
 }
 .name{
     padding: 20px;
-    font-size: 30px;
+    font-size: 5rem;
     font-weight: 1000;
     color: #fff;
 }
 .sub-name{
-    margin: 3px 0 0 270px;
-    font-size: 15px;
+    margin-top: 30px;
+    margin-left:  270px;
+    font-size: 30px;
     font-weight: 800;
     color: #fff;
 }
@@ -607,23 +608,23 @@ input[type='submit']{
 }
 .opening{
     color: #fff;
-    font-size: 15px;
+    font-size: 30px;
     text-transform: uppercase;
     padding-bottom: 5px;
 }
 .day{
     color: #998100;
-    font-size: 10px;
+    font-size: 25px;
     padding-bottom: 5px;
 }
 .times{
     color: #eee;
-    font-size: 8px;
+    font-size: 20px;
     padding-bottom: 5px;
 }
 .phone{
     color: #fff;
-    font-size: 10px;
+    font-size: 20px;
     padding-top: 5px;
 }
 .container-form{
@@ -635,7 +636,7 @@ input[type='submit']{
     width: 100%;
 }
 .reserve{
-    font-size: 10px;
+    font-size: 20px;
     text-align: center;
     text-transform: uppercase;
     padding: 5px;
@@ -645,11 +646,11 @@ input[type='submit']{
     justify-content: space-between;
 }
 .form-field p{
-    font-size: 10px;
+    font-size: 20px;
     margin-top: 10px;
 }
 .txtarea{
-    font-size: 10px;
+    font-size: 20px;
     background: #eee;
     width: 50%;
     margin: 2px;
@@ -657,7 +658,7 @@ input[type='submit']{
     margin-right: 5px;
 }
 .select{
-    font-size: 10px;
+    font-size: 20px;
     margin: 5px;
     background-color:#eee ;
     width: 50%;
@@ -739,6 +740,7 @@ table {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+    font-size: 20px;
   }
   tr :hover{
     background: #7aacf7;
@@ -760,14 +762,14 @@ table {
 
 .footer .box-container .box h3{
     padding:.5rem 0;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color:#fff;
 }
 
 .footer .box-container .box a{
     display: block;
     padding:1rem 0;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color:#eee;
 }
 
@@ -779,7 +781,7 @@ table {
 .footer .credit{
     text-align: center;
     border-top: .1rem solid rgba(0,0,0,.1);
-    font-size: 2rem;
+    font-size: 2.5rem;
     color:var(--black);
     padding:.5rem;
     padding-top: 1.5rem;
@@ -809,10 +811,10 @@ table {
 
 
 
-@media (max-width:400px){
+@media (max-width:700px){
 
     html{
-        font-size: 25%;
+        font-size: 40%;
     }
     
     header{
@@ -828,9 +830,9 @@ table {
 
 }
 
-@media (max-width:300px){
+@media (max-width:500px){
     header .logo{
-        font-size: 8px;
+        font-size: 12px;
     }
     header .logo i{
         margin-left: 0px;
@@ -864,7 +866,7 @@ table {
 }
 
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:800px) {
     .dots{
         top: 9px;
         width: 8px;
@@ -883,7 +885,7 @@ table {
         margin-top: 0 30px;
     }
     .order{
-        height: 340px;
+        height: 1100px;
     }
 
     #table{
@@ -893,7 +895,7 @@ table {
         height: 10rem;
     }
     .about{
-        height: 360px;
+        height: 700px;
     }
     .about .row .content h3{
         margin-top: -80px;
@@ -904,12 +906,18 @@ table {
         height: 300px;
         width: 300px;
     }
+    .footer .box-container{
+        grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    }
+    .book-container{
+        display: block;  
+    }
     .name{
-        font-size: 10px;
+        font-size: 30px;
         margin-left: -20px;
     }
     .sub-name{
-        font-size: 8px;
+        font-size: 20px;
         margin-left:70px;
         margin-top: 10px;
     }
@@ -920,15 +928,26 @@ table {
         margin-top: -13px;
     }
 }
-@media screen and (max-width:300px) {
+@media screen and (max-width:500px) {
     .items{
         grid-template-columns: repeat(1,1fr);
     }    
-    .about .row .content h3{
-        margin-top: -110px;
+    .about{
+        height: 600px;
+    }
+    .order{
+        height: 700px;
     }
     .book-container{
         display: block;  
+    }
+    .footer .box-container{
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
+    .our-chef
+    {
+
+	grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
     }
 }
 
@@ -944,52 +963,3 @@ table {
     width: 100%;
    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
